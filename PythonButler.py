@@ -1,5 +1,5 @@
 def main():
-    i=1
+    i=0
     meal= []
     checkcorrect = 'n'
     
@@ -24,6 +24,7 @@ def main():
             print("Alright! I'll be out with your food shortly")
         elif checkcorrect == 'n' or checkcorrect == 'no':
             print("I'm so sorry! We'll start all over to make sure your order is correct")
+            del meal[:]
             continue
 
 main()
