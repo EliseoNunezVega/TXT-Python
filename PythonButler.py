@@ -1,5 +1,4 @@
 def main():
-    i=0
     meal= []
     checkcorrect = 'n'
     
